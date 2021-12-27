@@ -1,3 +1,4 @@
+#!/bin/bash
 #install-all-dependent-repos
 sudo apt-get update;
 sudo apt-get upgrade -y;
