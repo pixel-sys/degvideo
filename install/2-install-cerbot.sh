@@ -9,6 +9,7 @@ sudo snap install --classic certbot -y;
 sudo ln -s /snap/bin/certbot /usr/bin/certbot;
 
 sudo certbot certonly --nginx;
+sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048;
 
 sudo reboot;
 
