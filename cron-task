@@ -1,1 +1,0 @@
-* * * * * find /usr/share/nginx/ -name "*.mpd" | sed -e 's!/usr/share/nginx/data/!!' | sed -e 's/^/\<p\>/' -e 's/$/\<\/p\>/' > /usr/share/nginx/list/manifestList.html
