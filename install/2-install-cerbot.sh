@@ -1,5 +1,5 @@
 #!/bin/bash
-#install-certbot
+#install-certbot + DHparam
 
 sudo snap install core; 
 sudo snap refresh core;
