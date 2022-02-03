@@ -3,4 +3,4 @@
 
 URL_prefix="https://degvideo.feit.uniza.sk/"
 
-find /usr/share/nginx/ -name "*.mpd" | sed -e 's!/usr/share/nginx/data/!!' | sed -e 's/^/\<p\>${URL_prefix}/' -e 's/$/\<\/p\>/' > /usr/share/nginx/list/manifestList.html
+find /usr/share/nginx/ -name "*.mpd" | sed -e 's!/usr/share/nginx/data/!!' | sed -e "s/^/\<p\>${URL_prefix}/" -e "s/$/\<\/p\>/" > /usr/share/nginx/list/manifestList.html
